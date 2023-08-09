@@ -44,3 +44,5 @@ When app starts:
 ### Ask
 
 Open `http://localhost:5000`:
+
+![](https://github.com/michaelliao/llm-embedding-sample/blob/master/snapshot.png?raw=true)
