@@ -38,9 +38,7 @@ Please refer to the following to answer the questions:
 """
 '''
 
-openai.api_key = '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'
-
-openai.proxy = 'http://127.0.0.1:1235'
+openai.api_key = 'your-api-key'
 
 app = Flask(__name__)
 
