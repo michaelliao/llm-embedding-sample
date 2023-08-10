@@ -69,7 +69,6 @@ def load_docs():
                        embedding=embedding)
             db_insert(doc)
             print(f'doc {name} created.')
-    pass
 
 
 def db_conn():
