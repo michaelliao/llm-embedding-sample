@@ -133,7 +133,7 @@ def ask():
     print(f'>>>\n{content}\n>>>')
     embedding = create_embedding(content)
     docs = db_select_by_embedding(embedding)
-    if len(docs) > 1 and docs[0]['distance'] < 0.5:
+    if len(docs) >= 1 and docs[0]['distance'] < 0.5:
         messages = [dict(role='system', content=PROMPT_WITH_EMBEDDING % docs[0]['content']),
                     dict(role='user', content=content)]
     else:
